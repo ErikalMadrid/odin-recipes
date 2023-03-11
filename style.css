@@ -1,0 +1,31 @@
+/* External CSS file */
+
+body {
+    background-color: skyblue;
+    font-size: 20px;
+}
+
+.center-heading {
+    font-size: 45px;
+    color: orangered;
+    text-align: center;
+}
+
+.recipe-links {
+    color:red;
+}
+
+.image.proportioned {
+    height: 200px;
+    width: 275px;;
+}
+
+.image.enlarged {
+    height: 400px;
+    width: 500px;
+}
+
+.subsection {
+    background-color: orange;
+    display: inline-block;
+}
