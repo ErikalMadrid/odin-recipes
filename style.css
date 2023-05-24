@@ -1,31 +1,59 @@
 /* External CSS file */
 
 body {
-    background-color: skyblue;
-    font-size: 20px;
+    background-color: rgb(123, 165, 182);
+    font-size: 15px;
+    font-family: "Monaco", Helvetica, sans-serif;
 }
 
 .center-heading {
-    font-size: 45px;
-    color: orangered;
+    font-size: 40px;
+    font-family: "Copperplate", Helvectica, sans-serif;
+    color: rgb(217, 97, 17);
     text-align: center;
+    background-color: limegreen;
+    border: 10px solid orange;
+
 }
 
+.introduction {
+    font-family: "Verdana", Helvectica, sans-serif;
+    color: rgb(217, 97, 17);
+    background-color: limegreen;
+    padding: 10px;
+    width: 125px;
+    border: 10px solid orange;
+    margin-left: 60px;
+}
 .recipe-links {
-    color:red;
+    color: purple;
+    width: 275px;
 }
 
-.image.proportioned {
-    height: 200px;
-    width: 275px;;
+.image.enlarged, .image.proportioned {
+    height: 300px;
+    width: 480px;
+    border: 5px solid yellow;
+    margin: 10px 450px;
 }
 
-.image.enlarged {
-    height: 400px;
-    width: 500px;
+.p1, .p2, .recipe-links {
+    border: 5px solid salmon;
+    background-color: rgb(226, 199, 110);
+    padding: 10px;
+    max-width: 50%;
 }
 
-.subsection {
-    background-color: orange;
-    display: inline-block;
+.descriptionTemple, .ingredients, .pancakeSteps, .sandwhichSteps {
+    padding: 15px 40px;
+    max-width: 45%;
+    border: 5px solid brown;
+}
+
+.pancakeColor {
+    background-color: darkseagreen;
+}
+
+.sandwhichColor {
+    background-color: lightgreen;
 }
